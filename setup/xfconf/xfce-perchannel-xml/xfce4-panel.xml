@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (65%)"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (71%)"/>
+        <value type="string" value="skypeforlinux"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (53%)"/>
+        <value type="string" value="wi-fi network connection “h2g-lan” active: h2g-lan (71%)"/>
+        <value type="string" value="wi-fi network connection “leonardo’s iphone 1” active: leonardo’s iphone (98%)"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (50%)"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (55%)"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (54%)"/>
+        <value type="string" value="anydesk"/>
+        <value type="string" value="wi-fi network connection “leonardo’s iphone” active: leonardo’s iphone (94%)"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (62%)"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (61%)"/>
+        <value type="string" value="configuring wi-fi network connection “leonardo’s iphone”…"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (60%)"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (66%)"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (59%)"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (56%)"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (63%)"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (57%)"/>
+        <value type="string" value="wi-fi network connection “leonardo’s iphone” active: leonardo’s iphone (95%)"/>
+        <value type="string" value="wi-fi network connection “h2g-lan” active: h2g-lan (66%)"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (58%)"/>
+        <value type="string" value="wi-fi network connection “leonardo’s iphone 1” active: leonardo’s iphone (93%)"/>
+        <value type="string" value="wi-fi network connection “wn-324d30” active: wn-324d30 (52%)"/>
+        <value type="string" value="wi-fi network connection “h2g-lan” active: h2g-lan (68%)"/>
+        <value type="string" value="wi-fi network connection “leonardo’s iphone” active: leonardo’s iphone (96%)"/>
+        <value type="string" value="wi-fi network connection “leonardo’s iphone 1” active: leonardo’s iphone (90%)"/>
+        <value type="string" value="slack"/>
+        <value type="string" value="wi-fi network connection “h2g-lan” active: h2g-lan (62%)"/>
+        <value type="string" value="wi-fi network connection “visitor-88706” active: visitor-88706 (70%)"/>
+        <value type="string" value="wi-fi network connection “h2g-lan” active: h2g-lan (60%)"/>
+        <value type="string" value="wi-fi network connection “visitor-88706” active: visitor-88706 (62%)"/>
+        <value type="string" value="wi-fi network connection “h2g-lan” active: h2g-lan (70%)"/>
+        <value type="string" value="wi-fi network connection “h2g-lan” active: h2g-lan (65%)"/>
+        <value type="string" value="wi-fi network connection “visitor-88706” active: visitor-88706 (56%)"/>
+        <value type="string" value="wi-fi network connection “visitor-88706” active: visitor-88706 (49%)"/>
+        <value type="string" value="wi-fi network connection “h2g-lan” active: h2g-lan (80%)"/>
+        <value type="string" value="wi-fi network connection “visitor-88706” active: visitor-88706 (66%)"/>
+        <value type="string" value="wi-fi network connection “h2g-lan” active: h2g-lan (67%)"/>
+        <value type="string" value="wi-fi network connection “visitor-88706” active: visitor-88706 (63%)"/>
+        <value type="string" value="wi-fi network connection “visitor-88706” active: visitor-88706 (58%)"/>
+        <value type="string" value="wi-fi network connection “h2g-lan” active: h2g-lan (63%)"/>
+        <value type="string" value="wi-fi network connection “h2g-lan” active: h2g-lan (61%)"/>
+        <value type="string" value="wi-fi network connection “visitor-88706” active: visitor-88706 (65%)"/>
+        <value type="string" value="wi-fi network connection “h2g-gast” active: h2g-gast (63%)"/>
+        <value type="string" value="system-config-printer"/>
+        <value type="string" value="wi-fi network connection “martin router king” active: martin router king (98%)"/>
+        <value type="string" value="wi-fi network connection “martin router king” active: martin router king (94%)"/>
+        <value type="string" value="wi-fi network connection “leonardo’s iphone” active: leonardo’s iphone (83%)"/>
+        <value type="string" value="wi-fi network connection “h2g-gast” active: h2g-gast (71%)"/>
+        <value type="string" value="wi-fi network connection “h2g-lan” active: h2g-lan (69%)"/>
+        <value type="string" value="wi-fi network connection “visitor-88706” active: visitor-88706 (67%)"/>
+        <value type="string" value="ethernet network connection “wired connection 2” active"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="ulauncher"/>
+        <value type="string" value="hp-systray"/>
+        <value type="string" value="indicator-solaar"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="join?action=join&amp;confno=99634882693&amp;confid=dXRpZD1VVElEX2JhY2UzNTU0Y2Y3ZjRiMDZhYjExNmE4MzMwMzdkYmFiJnVzcz1NLWdxMEVycmhsVnZDOGMxWnJyVko0N0dhU1pVajRSY0ZxeUNtNFY1N3dhazRsRmtJeTIzWWNkVGd5YzJ6d3l5TDF5U0RMOEttTlRWWEtrVkdnLkhITEEyUl9wZXQ5WTg2eTUmdGlkPTYwNWE1Y2IyYzJlNjQzNTZiOTljM2IxZTI2NWJkMGY5&amp;browser=chrome"/>
+        <value type="string" value="join?action=join&amp;confno=81605363878&amp;pwd=YkRTMkJrNnJ1a0pDOWtWcVZTODdudz09&amp;confid=dXRpZD1VVElEX2IyMTQyNzU5NTQ5ODQxNTFiOGUxNjIxODBkODc2ODBlJnVzcz1ZWF9ETHRPTU82XzNUUFRVRl95SnVrWDIySW9JWTdhX2FqbE9iNURndG95dVhlX1c5dng3QjF6QWFuZlBMNGtDUWtIcTdRZ09VempSZFk2b1FKd2JaMmhxQkdyQS5PUncwcXhiMXhmOVgwZ000JnRpZD02MDVhNWNiMmMyZTY0MzU2Yjk5YzNiMWUyNjViZDBmOQ%3D%3D&amp;browser=chrome"/>
+        <value type="string" value="Microsoft Teams - Preview1"/>
+        <value type="string" value="join?action=join&amp;confno=81631229582&amp;pwd=ditUdTJrOVdFVkpkSXJ5MFdpWWFxUT09&amp;confid=dXRpZD1VVElEXzhlMTI3MTJlODM4YjRhMmQ4YzgzZTA5MDhkYWY5MzE0JnVzcz1HQ2Q5VURYZ2FYeFZ2RVJVbDAzU2JWcGc2T3I2SEctd3Q0OUJfUzE4UDJJWVBNV0pQS3lwVzZ0VGYzbDc4WUViX205aWlRdmZodmFqUlVmcmJsN3JwZDd2LXptSi52V0VmRm13OFBzREl1UmlaJnRpZD02MDVhNWNiMmMyZTY0MzU2Yjk5YzNiMWUyNjViZDBmOQ%3D%3D&amp;browser=chrome"/>
+        <value type="string" value="join?action=join&amp;confno=81726374212&amp;pwd=clUvb2VjekQxWXZ1TDdzWnBxNk9CQT09&amp;confid=dXRpZD1VVElEXzhmZWNkZjBmZjgzODRjYzc5NGYzNGQ4OTNhZTE0NTQ0JnVzcz13bFhWNE5tUmcxTkJlejBMZnZwOEc0Uk5meXZYdU1DenZHclptRldPWFNqMUtNbFRLdWUzdU9pOTFwdTEwZ1pKY1dwY0VIV1NaaEZReERLeUF4X2Fwcm5HUzR4Ri5NT1U0REFHeloxSFpiQ2pTJnRpZD02MDVhNWNiMmMyZTY0MzU2Yjk5YzNiMWUyNjViZDBmOQ%3D%3D&amp;browser=chrome"/>
+        <value type="string" value="join?action=join&amp;confno=99634882693&amp;confid=dXRpZD1VVElEXzkwNzhhMjZjNWNlOTQ0ZDhhODRjOGIxMmU5NDhjZDcwJnVzcz15RVM5dDhzM2RUeHpkeTlKYVdRMzRBeFV2aDlpb3VzZWpiWTE2RVE3YTYwRlVNZWdrU0E0NFAybTc4dFNfbnQxdTVkeEJGMnNIZlBIWmJ3Z19BLlZtQzZpc2VyOWpIZkJwancmdGlkPTYwNWE1Y2IyYzJlNjQzNTZiOTljM2IxZTI2NWJkMGY5&amp;browser=chrome"/>
+        <value type="string" value="join?action=join&amp;confno=89160404242&amp;pwd=K2krQ2ltQnZTQ2krWndKZDYwWjZ6Zz09&amp;confid=dXRpZD1VVElEXzMxYmMzMjU5YmNmMDQ5ODhhODNhYWVkODRjYmRlYjQ1JnVzcz1WdTZTZUZ2M0lmWHc3cmYxRjN5ZS03cWVxN3REMFgyM3FvOEloS0RMMEI4ejhrMTZpMkt6VXd4MktiN2NmQVZqdVFUMXZjNzJDR1FEWVpUQTV4TUU4Qm1LQU1VNi5PanQzYjUzWWphUzl6ejlFJnRpZD02MDVhNWNiMmMyZTY0MzU2Yjk5YzNiMWUyNjViZDBmOQ%3D%3D&amp;browser=chrome"/>
+        <value type="string" value="join?action=join&amp;confno=81631229582&amp;pwd=ditUdTJrOVdFVkpkSXJ5MFdpWWFxUT09&amp;confid=dXRpZD1VVElEX2U5MWVkYTE5YWNiNzQxYTBhN2YxMTVkNmNjNTQyMTg1JnVzcz1UTkFadUdVbTdndTg4Q1hJbW1WZ1QzUjhjdkVCRE9rdTFtQ25zcWRENWJfM2UyLS1FTE1RWGFFVmY5cEpiZ1c0UmkybDI0d2dNOVU0cXZKNHlVQmVWLXB4T2lnLS5YNUtMVUF4OUtsempCNl9iJnRpZD02MDVhNWNiMmMyZTY0MzU2Yjk5YzNiMWUyNjViZDBmOQ%3D%3D&amp;browser=chrome"/>
+        <value type="string" value="zoom "/>
+        <value type="string" value="join?action=join&amp;confno=92746854952&amp;pwd=UWdFN1dud1h2Z0RYYjlIbDlsNjhRZz09&amp;confid=dXRpZD1VVElEXzBiMjgyMTM0ZTBmMzRlZTM5M2M0NGRiYzEzZmVlNzAyJnVzcz15WWFkTnhIRUd6SWNSQjFRTktsRFRiWHZZcG1LRndCSTNtOFpYMzVkU3lGYjM1cUxuckdQUVY3cTVVOUFVb0hiNE5IRFRxcmtfbF9IZEctR0l3LmxuZHhpR2tPaEs2dVlFRzgmdGlkPTYwNWE1Y2IyYzJlNjQzNTZiOTljM2IxZTI2NWJkMGY5&amp;browser=chrome"/>
+        <value type="string" value="jetbrains-toolbox"/>
+        <value type="string" value="Airtame1"/>
+        <value type="string" value="Skype1"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="zoom"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="toolbox"/>
+        <value type="string" value="Slack1"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance10267;chromium.instance12217;chromium.instance12252;chromium.instance12432;chromium.instance12639;chromium.instance12802;chromium.instance13215;chromium.instance13236;chromium.instance13542;chromium.instance14285;chromium.instance14342;chromium.instance14678;chromium.instance15423;chromium.instance15445;chromium.instance15716;chromium.instance15994;chromium.instance166124;chromium.instance18051;chromium.instance19027;chromium.instance19160;chromium.instance19539;chromium.instance19934;chromium.instance19973;chromium.instance2034;chromium.instance2055;chromium.instance20709;chromium.instance21092;chromium.instance22428;chromium.instance2243;chromium.instance22537;chromium.instance23584;chromium.instance23816;chromium.instance2497;chromium.instance25576;chromium.instance2701;chromium.instance27140;chromium.instance2757;chromium.instance2802;chromium.instance2834;chromium.instance2850;chromium.instance28587;chromium.instance2875;chromium.instance3022;chromium.instance3030;chromium.instance3089;chromium.instance3095;chromium.instance3129;chromium.instance31486;chromium.instance3174;chromium.instance3185;chromium.instance3187;chromium.instance31935;chromium.instance3206;chromium.instance3208;chromium.instance3214;chromium.instance3222;chromium.instance3244;chromium.instance3248;chromium.instance3277;chromium.instance3293;chromium.instance3304;chromium.instance3306;chromium.instance3314;chromium.instance3318;chromium.instance3344;chromium.instance3359;chromium.instance3375;chromium.instance3378;chromium.instance33889;chromium.instance3400;chromium.instance3436;chromium.instance3444;chromium.instance3454;chromium.instance3456;chromium.instance34687;chromium.instance3480;chromium.instance3481;chromium.instance3484;chromium.instance3502;chromium.instance3507;chromium.instance3563;chromium.instance3566;chromium.instance3569;chromium.instance3600;chromium.instance3603;chromium.instance3608;chromium.instance3627;chromium.instance36288;chromium.instance3633;chromium.instance3639;chromium.instance3643;chromium.instance3663;chromium.instance3702;chromium.instance3714;chromium.instance3716;chromium.instance3743;chromium.instance3746;chromium.instance3748;chromium.instance3755;chromium.instance3774;chromium.instance3786;chromium.instance3787;chromium.instance3791;chromium.instance3797;chromium.instance3843;chromium.instance3845;chromium.instance3851;chromium.instance3862;chromium.instance3871;chromium.instance3872;chromium.instance3888;chromium.instance3901;chromium.instance3923;chromium.instance3926;chromium.instance3941;chromium.instance3945;chromium.instance3950;chromium.instance3951;chromium.instance3963;chromium.instance3965;chromium.instance3969;chromium.instance39695;chromium.instance4010;chromium.instance4018;chromium.instance4043;chromium.instance40703;chromium.instance4090;chromium.instance4105;chromium.instance4109;chromium.instance4211;chromium.instance4244;chromium.instance4246;chromium.instance42483;chromium.instance4259;chromium.instance43440;chromium.instance4346;chromium.instance4354;chromium.instance4364;chromium.instance4385;chromium.instance4437;chromium.instance4447;chromium.instance4470;chromium.instance4510;chromium.instance4529;chromium.instance4570;chromium.instance4580;chromium.instance4590;chromium.instance46562;chromium.instance4669;chromium.instance4685;chromium.instance4688;chromium.instance4693;chromium.instance4828;chromium.instance4831;chromium.instance4859;chromium.instance4943;chromium.instance50182;chromium.instance50613;chromium.instance5095;chromium.instance5124;chromium.instance5126;chromium.instance5199;chromium.instance5206;chromium.instance5220;chromium.instance5271;chromium.instance5360;chromium.instance5619;chromium.instance5642;chromium.instance5690;chromium.instance6001;chromium.instance6061;chromium.instance65207;chromium.instance6780;chromium.instance6986;chromium.instance7186;chromium.instance7222;chromium.instance7543;chromium.instance7558;chromium.instance7738;chromium.instance7817;chromium.instance785052;chromium.instance8050;chromium.instance8334;chromium.instance843691;chromium.instance8459;chromium.instance8492;chromium.instance8635;chromium.instance8658;chromium.instance8661;chromium.instance8689;chromium.instance86905;chromium.instance87045;chromium.instance87910;chromium.instance9002;chromium.instance9146;chromium.instance96898;firefox.instance100875;firefox.instance10169;firefox.instance104881;firefox.instance10618;firefox.instance107333;firefox.instance113395;firefox.instance11448;firefox.instance117380;firefox.instance117499;firefox.instance119637;firefox.instance121306;firefox.instance121352;firefox.instance12203;firefox.instance122634;firefox.instance132084;firefox.instance13327;firefox.instance13858;firefox.instance13962;firefox.instance141125;firefox.instance14264;firefox.instance143260;firefox.instance144309;firefox.instance14652;firefox.instance148262;firefox.instance15343;firefox.instance15410;firefox.instance1578;firefox.instance15866;firefox.instance16435;firefox.instance16632;firefox.instance1686;firefox.instance16893;firefox.instance16915;firefox.instance1697;firefox.instance170021;firefox.instance17148;firefox.instance17373;firefox.instance1759;firefox.instance18047;firefox.instance18055;firefox.instance18423;firefox.instance1843;firefox.instance18481;firefox.instance1866;firefox.instance18752;firefox.instance18855;firefox.instance18934;firefox.instance19239;firefox.instance1933;firefox.instance19338;firefox.instance1995;firefox.instance1999;firefox.instance2004;firefox.instance20077;firefox.instance20158;firefox.instance2026;firefox.instance20399;firefox.instance2042;firefox.instance2044;firefox.instance2046;firefox.instance20634;firefox.instance2065;firefox.instance20659;firefox.instance20676;firefox.instance2090;firefox.instance20911;firefox.instance20966;firefox.instance21002;firefox.instance21166;firefox.instance21215;firefox.instance21295;firefox.instance21433;firefox.instance21809;firefox.instance21915;firefox.instance2211;firefox.instance22335;firefox.instance2252;firefox.instance22736;firefox.instance22867;firefox.instance23538;firefox.instance23910;firefox.instance25198;firefox.instance25293;firefox.instance2590;firefox.instance26309;firefox.instance264268;firefox.instance26516;firefox.instance2682;firefox.instance26883;firefox.instance28275;firefox.instance28355;firefox.instance28364;firefox.instance28500;firefox.instance28689;firefox.instance287181;firefox.instance29161;firefox.instance3005;firefox.instance3006;firefox.instance3010;firefox.instance30280;firefox.instance305723;firefox.instance31647;firefox.instance31954;firefox.instance32147;firefox.instance32369;firefox.instance32430;firefox.instance32434;firefox.instance32604;firefox.instance326058;firefox.instance32718;firefox.instance34886;firefox.instance34897;firefox.instance35483;firefox.instance35825;firefox.instance36039;firefox.instance36064;firefox.instance36165;firefox.instance36515;firefox.instance36887;firefox.instance37434;firefox.instance38200;firefox.instance3833;firefox.instance387459;firefox.instance388222;firefox.instance39351;firefox.instance39353;firefox.instance40709;firefox.instance40717;firefox.instance41004;firefox.instance4129;firefox.instance41387;firefox.instance41757;firefox.instance42255;firefox.instance42694;firefox.instance43296;firefox.instance4344;firefox.instance44088;firefox.instance44468;firefox.instance45343;firefox.instance4562;firefox.instance457341;firefox.instance4644;firefox.instance46904;firefox.instance4692;firefox.instance4699;firefox.instance476678;firefox.instance48055;firefox.instance48101;firefox.instance48224;firefox.instance489838;firefox.instance492022;firefox.instance49236;firefox.instance49279;firefox.instance49619;firefox.instance50172;firefox.instance50454;firefox.instance5112;firefox.instance5158;firefox.instance51791;firefox.instance52037;firefox.instance53194;firefox.instance53947;firefox.instance54347;firefox.instance57239;firefox.instance57288;firefox.instance578911;firefox.instance58837;firefox.instance59049;firefox.instance59189;firefox.instance59392;firefox.instance6084;firefox.instance61224;firefox.instance62593;firefox.instance629841;firefox.instance64856;firefox.instance6505;firefox.instance677615;firefox.instance68883;firefox.instance68924;firefox.instance69861;firefox.instance70238;firefox.instance71573;firefox.instance7159;firefox.instance7276;firefox.instance7426;firefox.instance74433;firefox.instance7607;firefox.instance76503;firefox.instance76565;firefox.instance7879;firefox.instance79082;firefox.instance82006;firefox.instance8235;firefox.instance82694;firefox.instance8364;firefox.instance84210;firefox.instance85845;firefox.instance86442;firefox.instance8650;firefox.instance89049;firefox.instance89545;firefox.instance89800;firefox.instance9178;firefox.instance9459;firefox.instance9467;firefox.instance9763;spotify"/>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock"/>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions"/>
+  </property>
+</channel>

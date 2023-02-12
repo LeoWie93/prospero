@@ -1,0 +1,15 @@
+brave-bin
+davfs2
+displaylink
+evdi
+github-desktop-bin
+google-chrome
+grub-tools
+grub2-theme-endeavouros
+ipw2100-fw
+ipw2200-fw
+jetbrains-toolbox
+masterpdfeditor-free
+postman-bin
+uxplay
+visual-studio-code-bin

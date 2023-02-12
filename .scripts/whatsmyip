@@ -1,0 +1,4 @@
+#!/bin/bash
+curl https://ipinfo.io
+
+wget -q -O - whoismyisp.org | grep -oP -m1 '(?<=isp">).*(?=</p)'
