@@ -3,7 +3,7 @@
 echo "Starting setup"
 
 # .scripts
-echo "copy .scripts folder and register $PATH"
+echo "copy .scripts folder and register \$PATH"
 cp -r ./.scripts ~/Documents/
 echo "export PATH=/home/lwi/Documents/.scripts:$PATH" > ~/.bashrc
 
@@ -11,20 +11,24 @@ echo "export PATH=/home/lwi/Documents/.scripts:$PATH" > ~/.bashrc
 ./aliases/aliases.sh
 
 # install programms
-echo "Installing programms"
-pacman -S - < ./setup/pkglist.txt
-yay -S - < ./setup/aurlist.txt
+./setup/install-packages.sh
 
-echo "Setting up programms"
-# xfce4
-cp -r ./setup/xfconf ~/.conf/xfce4/
-cp -r ./setup/terminal ~/.conf/xfce4/
+if dialog --stdout --yesno "Setup program configs? (rofi etc.)" 10 30; then
+    # rofi
+    ./setup/rofi-setup/install.sh
+fi
 
-# rofi
-./setup/rofi-setup/install.sh
+#xfce
+if dialog --stdout --yesno "Setup xfce config files?" 10 30; then
+    cp -r ./setup/xfconf ~/.conf/xfce4/
+    cp -r ./setup/terminal ~/.conf/xfce4/
+fi
 
 #node/js
-echo "Setting up nvm and pnpm"
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+if dialog --stdout --yesno "Setup nvm?" 10 30; then
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+fi
 
-wget -qO- https://get.pnpm.io/install.sh | ENV="~/.bashrc" SHELL="$(which bash)" bash -
+if dialog --stdout --yesno "Setup pnpm?" 10 30; then
+    wget -qO- https://get.pnpm.io/install.sh | ENV="~/.bashrc" SHELL="$(which bash)" bash -
+fi
