@@ -24,7 +24,7 @@ $REPO_ROOT/update/neovim.sh
 
 if [ -f ~/.config/rofi/config.rasi ]; then
     echo "backup rofi config"
-    cat ~/.config/rofi/config.rasi > $REPO_ROOT/data/rofi/config.rasi
+    cp -r ~/.config/rofi/* $REPO_ROOT/data/rofi/
 fi
 
 # exit early if their is no given param
