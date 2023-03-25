@@ -1,27 +1,46 @@
 #!/bin/bash
 
-echo "Starting setup"
+i.f ! type pacman &> /dev/null; then
+    echo "pacman is not installed! Aborting"
+    exit 1
+fi
 
+if ! type yay &> /dev/null; then
+    echo "yay is not installed! Aborting"
+    exit 1
+fi
+
+REPO_ROOT=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+export REPO_ROOT
+
+echo "Starting setup"
 # .scripts
-echo "copy .scripts folder and register \$PATH"
-cp -r ./.scripts ~/Documents/
-echo "export PATH=/home/lwi/Documents/.scripts:$PATH" > ~/.bashrc
+echo "copy .scripts folder and cli configs (zsh, tmux, neovim)"
+cp -r $REPO_ROOT/.scripts ~/Documents/
 
 # aliases
-./aliases/aliases.sh
+$REPO_ROOT/setup/aliases.sh
+
+# cli
+$REPO_ROOT/setup/zsh.sh
+$REPO_ROOT/setup/tmux.sh
+$REPO_ROOT/setup/neovim.sh
+#
+# git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+# ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
 # install programms
-./setup/install-packages.sh
+$REPO_ROOT/setup/install-packages.sh
 
 if dialog --stdout --yesno "Setup program configs? (rofi etc.)" 10 30; then
     # rofi
-    ./setup/rofi-setup/install.sh
+    $REPO_ROOT/setup/rofi.sh
 fi
 
 #xfce
 if dialog --stdout --yesno "Setup xfce config files?" 10 30; then
-    cp -r ./setup/xfconf ~/.conf/xfce4/
-    cp -r ./setup/terminal ~/.conf/xfce4/
+    cp -r $REPO_ROOT/data/xfconf ~/.config/xfce4/
+    cp -r $REPO_ROOT/data/terminal ~/.config/xfce4/
 fi
 
 #node/js

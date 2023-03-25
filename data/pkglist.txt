@@ -42,3 +42,4 @@ ttf-dejavu
 ttf-liberation
 ttf-opensans
 youtube-dl
+ripgrep
