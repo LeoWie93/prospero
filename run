@@ -1,0 +1,66 @@
+#!/usr/bin/env bash
+
+#TODO feels hacky. look into it
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+_usage() {
+cat << EOF
+Usage: kaiger target [flags]
+    --dry-run           runs with logs and without execution of targets
+    --remove | -r       calls remove function of specific target
+    --help | -h         prints this help
+EOF
+}
+
+
+declare -a targets
+dry=false
+remove=false
+
+# parse user input
+for word in $@; do
+    case "${word}" in
+        -r|--remove)
+            remove=true
+            ;;
+        --dry-run)
+            dry=true
+            ;;
+        -h|--help)
+            _usage
+            exit 0
+            ;;
+        *)
+            targets+=("${word}")
+            ;;
+    esac
+done
+
+for target in $targets; do
+    if [[ -e "${SCRIPT_DIR}/targets/${target}/target.sh" ]]; then
+
+        if ${dry}; then
+            echo "dry: run target ${target}"
+            continue
+        fi
+        
+        source "${SCRIPT_DIR}/targets/${target}/target.sh"
+
+        if ${remove}; then
+            echo "${target}: remove"
+            remove
+            echo "${target}: finished"
+            echo ""
+            continue
+        fi
+
+        echo "${target}: setup"
+        setup
+        echo "${target}: finished"
+        echo ""
+        continue
+    fi
+
+    echo "Target ${target} does not exist. Skipping..."
+done
+
