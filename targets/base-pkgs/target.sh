@@ -9,31 +9,27 @@ setup(){
     fi
 
     # Base Packges
-    sudo pacman -S \ 
-        waybar wlroots wofi wf-recorder xdg-desktop-portal xdg-desktop-portal-wlr \
+    sudo pacman -S waybar wlroots wofi wf-recorder xdg-desktop-portal xdg-desktop-portal-wlr \
         bitwarden blueberry bluez-utils btop\
         cups cups-filters cups-pdf \
         dunst \
         go grim ghostscript gutenprint \
         htop keepassxc obsidian \
-        slurp swappy solaar
+        slurp swappy solaar stow
 
     # File Explorer
-    sudo pacman -S \
-        thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin tumbler \
+    sudo pacman -S thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin tumbler \
         gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb
 
     # Terminal, CLI
-    sudo pacman -S \ 
-        ghostty \
+    sudo pacman -S ghostty \
         atuin \
         fd fzf \
         starship \
         tmux
 
     # Fonts, icons etc
-    sudo pacman -S \ 
-        adobe-source-han-sans-cn-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts \
+    sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts \
         ttf-bitstream-vera ttf-dejavu ttf-liberation ttf-opensans \
         noto-fonts opendesktop-fonts
 }

@@ -10,7 +10,7 @@ setup(){
     paru -S fnm-bin
     source ~/.zshrc
 
-    fnm install 23
+    fnm install lts
 
     #Global Packages
     ## TODO is this the correct place?

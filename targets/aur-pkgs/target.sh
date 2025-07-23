@@ -7,9 +7,8 @@ setup(){
         exit 1
     fi
 
-    paru -S \
-    bruno-bin beekeeper-studio-bin davfs2 displaylink evdi light \
-    nerd-fonts-git otf-atkinson-hyperlegible webcord wlogout wlprop xremap-wlroots-bin zen-browser-bin
+    paru -S bruno-bin beekeeper-studio-bin davfs2 light \
+    nerd-fonts-git otf-atkinson-hyperlegible webcord wlogout wlprop zen-browser-bin
 }
 
 remove(){
