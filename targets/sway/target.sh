@@ -7,16 +7,12 @@ setup(){
         exit 1
     fi
 
-    paru -S fnm-bin
-    source ~/.zshrc
+    sudo pacman -S waybar sway swayidle swaylock wf-recorder xdg-desktop-portal xdg-desktop-portal-wlr
 
-    fnm install 22
-
-    #Global Packages
-    ## TODO is this the correct place?
-    npm install -g neovim 
+    paru -S wlogout wlprop xremap
 }
 
 remove(){
-    echo "remove: not implemented"
+    echo "not implemented"
 }
+

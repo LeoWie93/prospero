@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 setup(){
-    RUN git clone https://aur.archlinux.org/paru.git \
+    git clone https://aur.archlinux.org/paru.git \
         && cd paru \
         && makepkg -si --noconfirm \
         && cd .. \

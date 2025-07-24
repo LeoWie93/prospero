@@ -8,7 +8,7 @@ setup(){
     fi
 
     paru -S bruno-bin beekeeper-studio-bin davfs2 light \
-    nerd-fonts-git otf-atkinson-hyperlegible webcord wlogout wlprop zen-browser-bin
+    nerd-fonts-git otf-atkinson-hyperlegible webcord zen-browser-bin xremap
 }
 
 remove(){
