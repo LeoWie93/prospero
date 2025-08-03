@@ -10,11 +10,13 @@ setup(){
 
     # Base Packges
     sudo pacman -S waybar wofi \
+        acpi \
         flatpak \
         networkmanager network-manager-applet \
         cups cups-filters cups-pdf  ghostscript gutenprint \
-        bitwarden blueberry dunst bluez-utils btop htop keepassxc obsidian stow solaar \
-        slurp grim swappy
+        bat bitwarden blueberry dunst bluez-utils btop htop keepassxc obsidian stow solaar \
+        slurp grim swappy \
+        jq
 
     # File Explorer
     sudo pacman -S thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin tumbler gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb
