@@ -16,7 +16,8 @@ setup(){
         cups cups-filters cups-pdf  ghostscript gutenprint \
         bat bitwarden blueberry dunst bluez-utils btop htop keepassxc obsidian stow solaar \
         slurp grim swappy \
-        jq
+        jq \
+        wl-clipboard
 
     # File Explorer
     sudo pacman -S thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin tumbler gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb
